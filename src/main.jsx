@@ -4,7 +4,7 @@ import App from "./App";
 import "./styles/app.scss";
 import { createContext } from "react";
 
-export const server = "https://nodejs-todoapp.onrender.com/api/v1";
+export const server = "https://todp-app-nodejs.onrender.com/api/v1";
 
 export const Context = createContext({ isAuthenticated: false });
 
